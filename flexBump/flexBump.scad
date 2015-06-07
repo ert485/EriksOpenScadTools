@@ -38,6 +38,9 @@ module bumpHelp(moduleName="none"){
         echo("------------");
     }
     if(moduleName=="bumpCut") echo("bumpCut(depth=2.5,length=7,width=1.2,flex=.3,keyHole=[2,0.5])");
+    if(moduleName=="bumpPoke") echo("bumpPoke(width=1.2,poke=.3,r=.7)");
+    if(moduleName=="bumpTest") echo("bumpTest()");
+    if(moduleName=="bumpHelp") echo("bumpHelp(moduleName='none')");
 }
 bumpHelp("bumpCut");
 bumpTest();
